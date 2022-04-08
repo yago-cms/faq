@@ -1,0 +1,26 @@
+{
+    "name": "yago-cms/faq",
+    "authors": [
+        {
+            "name": "Johan Gr\u00f6nberg",
+            "email": "johan@formsmedjan.se"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yago\\Faq\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yago\\Faq\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yago\\Faq\\PackageServiceProvider"
+            ]
+        }
+    }
+}
