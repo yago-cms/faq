@@ -33,6 +33,8 @@ class PackageServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/../resources/frontend/views', 'yago-faq');
 
         $blockService->module('faq-listing', [FaqController::class, 'listing']);
+
+        // test
     }
 
     /**
