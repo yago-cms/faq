@@ -5,7 +5,6 @@ namespace Yago\Faq\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Yago\Faq\Models\Faq;
-use Yago\Wikstens\Models\Estate;
 
 class FaqController extends Controller
 {

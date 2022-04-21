@@ -16,3 +16,5 @@ export const contentTypeGroups = [
         ]
     }
 ];
+
+export const contentTypeModules = [];

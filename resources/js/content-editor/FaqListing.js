@@ -1,13 +1,8 @@
-import { useQuery } from "@apollo/client";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { forwardRef, useEffect, useImperativeHandle } from "react";
 import { FormProvider, useForm } from "react-hook-form";
 import * as yup from "yup";
-import { Error } from "../../../../../js/components/Error";
-import { Select } from "../../../../../js/components/Form/Select";
-import { Loading } from "../../../../../js/components/Loading";
-import { usePrompt } from "../../../../../js/tmp-prompt";
-import { GET_REGIONS } from "../queries";
+import { Error, usePrompt } from "../../../../cms/resources/js/module";
 
 const schema = yup.object({
 });

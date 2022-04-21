@@ -17,9 +17,12 @@
         }
     },
     "extra": {
+        "yago": {
+            "name": "faq"
+        },
         "laravel": {
             "providers": [
-                "Yago\\Faq\\PackageServiceProvider"
+                "Yago\\Faq\\Providers\\FaqServiceProvider"
             ]
         }
     }

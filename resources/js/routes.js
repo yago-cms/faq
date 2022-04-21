@@ -1,5 +1,5 @@
-import { FaqForm } from "../pages/Faq/FaqForm";
-import { FaqIndex } from "../pages/Faq/FaqIndex";
+import { FaqForm } from "./pages/Faq/FaqForm";
+import { FaqIndex } from "./pages/Faq/FaqIndex";
 
 export default [
     {
